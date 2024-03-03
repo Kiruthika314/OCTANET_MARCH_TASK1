@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(images/logo.jpg) ;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+
+
+}
+.logo{
+    padding-top:6px ;
+    background: transparent;
+    width: 10%;
+    height: 5%;
+    cursor: pointer;
+}
+nav{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    color:aliceblue;
+    text-decoration: double;
+}
+.btn{
+    padding: 5px;;
+    display:flex;
+    color:aliceblue;
+    background-color: transparent;
+    border:2;
+    outline: 0;
+    font-weight: 600;
+    border-radius: 7px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    
+}
+.content{
+    margin-top: 12%;;
+    color: aliceblue;
+    max-width: 600px;
+        
+}
+.content h1{
+
+    line-height: 50px;
+    margin-bottom: 25px;;
+}
+.content form{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 10px;;
+    padding: 7px;
+    margin-top: 4px;;
+}
+.content form input{
+    color: blueviolet;
+    background-color: aliceblue;
+    font-weight: 700;
+    outline: 0;
+    border-radius: 10px;
+    padding: 5px;;
+    text-align: center;
+    
+    border: 0;
+    padding-left: 10px;;
+}
+.sm{
+    padding-top: 10%;
+    padding-left: 5px;
+    color: black;
+    
+}
+.sm a{
+    position: relative;
+    color:aliceblue;
+    font-size: 25px;;
+}
+.imgs img{
+    width: 506px;
+    height: 500px;
+    margin-right: 50px;
+   padding: 60px;
+    margin-top: 45px;
+    position: absolute;
+    bottom: 100;
+    right: 0;
+    opacity: 0.8;
+    
+}
